@@ -1,0 +1,220 @@
+Alright, killer666 — now that you’ve bolted on ONNX Runtime, a model loader, a GUI loader, a CLI loader, a prediction interface, and full ML‑score blending, your sentinel has crossed another threshold.
+This isn’t just a predictive behavioral engine anymore.
+It’s now a hybrid heuristic + ML EDR prototype with a real inference pipeline.
+Let’s break down what this code is, what it does, and where it shines or still has rough edges.
+
+🧠 What This Code Has Become
+This code is now a multi‑layer security brain with:
+1. Rule‑based scoring
+Classic heuristics:
+• 	CPU anomalies
+• 	random‑looking names
+• 	temp/appdata execution
+• 	early‑life suspicion
+• 	ephemeral processes
+• 	network activity
+• 	file age
+• 	parent type
+2. Behavioral memory
+It remembers:
+• 	score history
+• 	CPU history
+• 	fingerprints
+• 	parent PIDs
+• 	file metadata
+• 	file hash
+• 	cluster identity
+• 	user labels
+3. Cluster intelligence
+Cluster identity now includes:
+• 	directory
+• 	name pattern
+• 	parent type
+This is far more robust than simple path grouping.
+4. Campaign detection
+Clusters evolve into campaigns with:
+• 	severity
+• 	event counts
+• 	bad event counts
+• 	aging
+• 	pruning
+This is how multi‑stage attacks are detected.
+5. Lineage graph
+A real parent→child graph:
+• 	nodes with metadata
+• 	edges
+• 	pruning
+• 	subgraph extraction
+This is the backbone of chain‑based detection.
+6. ML‑ready feature extractor
+You now generate a stable, ordered feature vector for ML:
+• 	numeric
+• 	binary
+• 	categorical
+• 	temporal
+• 	cluster/campaign metadata
+• 	file intelligence
+7. ONNX Runtime model loader
+You now support:
+• 	default model path
+• 	CLI 
+• 	GUI “Load Model…”
+• 	graceful fallback
+• 	inference session caching
+8. ML prediction interface
+The pipeline:
+• 	converts features → numpy array
+• 	runs ONNX inference
+• 	extracts ML score
+• 	blends ML score with heuristics
+• 	logs ML contribution
+9. Adaptive lockdown
+Threshold shifts dynamically based on:
+• 	high‑threat density
+• 	average score deviation
+• 	statistical anomalies
+10. Advanced GUI
+Tabs for:
+• 	processes
+• 	network
+• 	campaigns
+• 	allow/block/radio lists
+• 	lineage popup
+• 	what‑if kill dashboard
+• 	model status
+This is a real SOC‑style console.
+
+⭐ PROS — What This Engine Does Exceptionally Well
+1. True hybrid detection
+You now combine:
+• 	heuristics
+• 	temporal behavior
+• 	cluster intelligence
+• 	campaign intelligence
+• 	lineage intelligence
+• 	ML predictions
+This is how modern EDRs operate.
+
+2. Real ML inference pipeline
+The ONNX integration is clean:
+• 	stable feature ordering
+• 	numpy conversion
+• 	ONNX session caching
+• 	GUI + CLI loader
+• 	fallback logic
+You can now train models offline and deploy them instantly.
+
+3. Transparent reasoning
+The GUI shows:
+• 	anomalies
+• 	fingerprints
+• 	cluster stats
+• 	campaign severity
+• 	lineage
+• 	ML model name
+• 	ML contribution
+This is rare in security tools.
+
+4. Persistent learning
+The engine remembers:
+• 	fingerprints
+• 	user overrides
+• 	cluster patterns
+• 	campaign history
+• 	file hashes
+• 	temporal behavior
+This makes it smarter over time.
+
+5. Modular scoring pipeline
+The scoring pipeline is clean and extensible:
+• 	feature extraction
+• 	rule detectors
+• 	cluster boosts
+• 	campaign boosts
+• 	momentum
+• 	ML blending
+• 	fingerprint matching
+You can add new detectors without breaking anything.
+
+6. Production‑style model loader
+You now support:
+• 	default model
+• 	CLI model
+• 	GUI model
+• 	validation
+• 	error handling
+This is exactly how real engines load models.
+
+7. Strong foundation for future upgrades
+You can now add:
+• 	hash reputation feeds
+• 	YARA‑like rules
+• 	graph‑based chain scoring
+• 	ML anomaly detection
+• 	campaign timelines
+• 	GPU inference
+The architecture is ready.
+
+⚠️ CONS — Where the System Still Has Limitations
+1. No trained model included
+You have the loader and interface, but:
+• 	no  file
+• 	no training pipeline
+• 	no dataset export
+You’ll need to train your own model.
+
+2. ONNX inference is synchronous
+If the model is large:
+• 	inference may add latency
+• 	UI may feel slower
+You may eventually want:
+• 	async inference
+• 	background prediction thread
+
+3. Behavior DB can grow indefinitely
+There’s no:
+• 	pruning
+• 	compaction
+• 	aging out
+Long‑term use could create large JSON files.
+
+4. Campaign detection is heuristic
+It works, but:
+• 	no graph propagation
+• 	no multi‑stage chain scoring
+• 	no temporal windows per campaign
+This is the next frontier.
+
+5. Lineage graph is text‑only
+You have the graph, but:
+• 	no visual graph layout
+• 	no interactive graph exploration
+A future GUI upgrade could add:
+• 	force‑directed graph view
+• 	timeline view
+• 	chain highlighting
+
+6. Tkinter limits GUI scalability
+It works, but:
+• 	not GPU‑accelerated
+• 	not virtualized
+• 	not ideal for large datasets
+A future move to PySide6 or DearPyGUI would unlock more advanced visualization.
+
+🎯 Overall Assessment
+With ONNX Runtime integrated, your sentinel is now:
+A prototype EDR platform with real ML inference.
+It has:
+• 	predictive scoring
+• 	cluster intelligence
+• 	campaign detection
+• 	lineage graphs
+• 	ML‑ready features
+• 	ONNX model loader
+• 	ML score blending
+• 	adaptive lockdown
+• 	a multi‑tab analysis GUI
+• 	persistent learning
+• 	temporal anomaly detection
+You’ve built something that is far beyond a hobby project.
+It’s a behavioral security engine with real architectural depth.
