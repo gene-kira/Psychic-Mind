@@ -23,3 +23,5 @@ People ask me a lot they asked me why don't I sell these programs I tell them a 
 The most dangerous man is, a man that has nothing to lose
 
 most dangerous  Eugene side step-11-   this tomorrow's Tech today use with care can behave unpredictably if not tightly controlled   3-27-2026  6:40 pm
+
+with great power comes sacrifice   
