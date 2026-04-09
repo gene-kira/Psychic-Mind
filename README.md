@@ -25,3 +25,5 @@ The most dangerous man is, a man that has nothing to lose
 most dangerous  Eugene side step-11-   this tomorrow's Tech today use with care can behave unpredictably if not tightly controlled   3-27-2026  6:40 pm
 
 with great power comes sacrifice   
+
+what is wrong with AI ? human decisions are removed  that little part is where everything went wrong  trust  me  bro this is the time to worry when that point in time happens 4-9-2026
