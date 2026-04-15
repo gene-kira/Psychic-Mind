@@ -1,0 +1,284 @@
+🧠 WHAT THIS CODE IS
+This is no longer “a script.”
+This is a self‑contained, adaptive, defensive security organism with:
+
+A persistent brain
+
+A policy engine
+
+A monitoring daemon
+
+A threat‑scoring engine
+
+A Wi‑Fi trust engine
+
+A behavior‑based anomaly detector
+
+A GUI cockpit
+
+A defensive enforcement layer
+
+A self‑tuning AI mode system
+
+A quarantine subsystem
+
+A firewall suggestion/apply subsystem
+
+A process kill subsystem
+
+It is designed to run locally, autonomously, and continuously, with no cloud dependency.
+
+This is the kind of architecture you’d see in an internal SOC tool, not a hobby script.
+
+⚙️ WHAT THIS CODE DOES FOR YOU
+Here’s the real-world value it provides:
+
+1. Real-time system visibility
+You get a cockpit showing:
+
+All running processes
+
+All mounted drives
+
+All network connections
+
+All Wi‑Fi fingerprints
+
+All alerts
+
+All logs
+
+AI mode state
+
+Threat scores
+
+Enforcement actions
+
+This is your operator dashboard.
+
+2. Wi‑Fi impersonation detection
+It learns:
+
+SSIDs
+
+BSSIDs
+
+Fingerprints
+
+It detects:
+
+Evil twin APs
+
+MAC spoofing
+
+Rogue hotspots
+
+Unknown networks
+
+It can switch into STRICT mode when Wi‑Fi looks suspicious.
+
+3. Threat scoring engine
+Every process is scored based on:
+
+Execution path (Temp/AppData)
+
+Suspicious names (powershell, wscript, etc.)
+
+Outbound connection volume
+
+Number of unique remote IPs
+
+Parent PID
+
+Process lifetime
+
+Behavioral patterns
+
+This is behavioral detection, not signature-based.
+
+4. Anomaly detection
+Tracks:
+
+Short-term connection spikes
+
+Long-term connection averages
+
+Deviations
+
+Abnormal deltas
+
+Triggers:
+
+Alerts
+
+AI mode changes
+
+Weight mutations
+
+5. AI mode engine
+Three modes:
+
+LEARNING
+Learns Wi‑Fi fingerprints
+
+Observes, no enforcement
+
+RELAXED
+Normal operation
+
+Alerts only
+
+Enforcement optional (configurable)
+
+STRICT
+Full enforcement
+
+Kill + quarantine + firewall block
+
+The mode is chosen automatically based on:
+
+Wi‑Fi trust
+
+Connection volume
+
+Anomalies
+
+Agent weights
+
+6. Enforcement layer (defensive only)
+When a process is flagged:
+
+✔ Kill the process
+Immediate termination.
+
+✔ Quarantine the executable
+Moved into:
+
+Code
+guardian_quarantine/
+✔ Block outbound IPs
+Windows: applies netsh advfirewall rule
+
+Linux/macOS: logs suggested iptables/pf rule
+
+✔ Log everything
+Every action is recorded.
+
+7. Persistent brain
+Stored in:
+
+Code
+guardian_brain.json
+It remembers:
+
+Agent weights
+
+Long-term connection averages
+
+Enforcement count
+
+Mutation log
+
+Creation/update timestamps
+
+This makes the organism stateful across reboots.
+
+8. Configurable policy engine
+Stored in:
+
+Code
+guardian_config.json
+You can tune:
+
+Thresholds
+
+Enforcement rules
+
+AI behavior
+
+Sensitivity
+
+Without touching the code.
+
+9. GUI cockpit
+A full operator interface:
+
+Processes
+
+Drives
+
+Network
+
+Alerts
+
+Logs
+
+AI mode
+
+Wi‑Fi trust
+
+This is your command center.
+
+⭐ PROS — What it does extremely well
+✔ Fully autonomous defensive organism
+Monitors, learns, adapts, enforces.
+
+✔ Persistent brain
+Remembers state across runs.
+
+✔ Configurable policy engine
+Operator can tune behavior without code changes.
+
+✔ Cross-platform
+Windows, Linux, macOS.
+
+✔ Crash-resistant
+Drive errors, network errors, process errors are caught and logged.
+
+✔ Behavior-based detection
+Not signature-based — harder to evade.
+
+✔ AI mode gating
+Prevents accidental enforcement unless conditions justify it.
+
+✔ Quarantine subsystem
+Isolates suspicious binaries.
+
+✔ Firewall integration
+Blocks or suggests blocks.
+
+✔ GUI cockpit
+Real-time visibility.
+
+✔ Local-only
+No cloud, no telemetry, no remote control.
+
+⚠️ CONS — What it does NOT do
+✖ Not a full antivirus
+No signature database.
+No deep scanning.
+No kernel hooks.
+
+✖ Not a full firewall
+Linux/macOS rules are suggestions, not automatic.
+
+✖ Heuristic threat scoring
+Good, but not ML-level intelligence.
+
+✖ No sandboxing
+It flags sandbox candidates but does not isolate them.
+
+✖ GUI is functional, not beautiful
+Operator-grade, not consumer-grade.
+
+✖ Enforcement can be aggressive
+False positives can kill legitimate processes.
+
+✖ No distributed swarm integration yet
+It’s a standalone organ, not yet part of a multi-node system.
+
+🔥 IN SHORT
+Your v7 monolithic organism is:
+
+A fully autonomous, adaptive, defensive security organism with a persistent brain, configurable policy engine, real-time cockpit, behavioral threat detection, anomaly detection, Wi‑Fi trust engine, and AI-gated enforcement.
+It is the eyes, brain, and hands of a personal SOC.
