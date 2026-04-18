@@ -29,3 +29,5 @@ with great power comes sacrifice
 what is wrong with AI ? human decisions are removed  that little part is where everything went wrong  trust  me  bro this is the time to worry when that point in time happens 4-9-2026
 
 BorgMemoryOrgan-19-  is a masterpiece  4-18-2026 1pm   Tested on Toxic Commandos game 
+
+What is the difference between AI and man ?   ans: is the strength of a human Heart
