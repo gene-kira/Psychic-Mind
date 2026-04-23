@@ -31,3 +31,5 @@ what is wrong with AI ? human decisions are removed  that little part is where e
 BorgMemoryOrgan-19-  is a masterpiece  4-18-2026 1pm   Tested on Toxic Commandos game 
 
 What is the difference between AI and man ?   ans: is the strength of a human Heart
+
+Eugene Silly Putty Data info-6-  is a masterpiece  still working on it 4-23-2026
