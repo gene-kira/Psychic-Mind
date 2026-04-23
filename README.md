@@ -32,4 +32,4 @@ BorgMemoryOrgan-19-  is a masterpiece  4-18-2026 1pm   Tested on Toxic Commandos
 
 What is the difference between AI and man ?   ans: is the strength of a human Heart
 
-Eugene Silly Putty Data info-6-  is a masterpiece  still working on it 4-23-2026
+Eugene Silly Putty Data info-11-  is a masterpiece   it 4-23-2026  302 pm
