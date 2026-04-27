@@ -1,0 +1,271 @@
+⭐ WHAT THIS CODE IS
+This is no longer “a script.”
+
+It is a Tier‑6 autonomous network intelligence organism:
+
+A self‑learning SD‑WAN brain
+
+A SOC‑grade telemetry engine
+
+A persona‑driven adaptive AI
+
+A per‑flow anomaly detector
+
+A distributed swarm node
+
+A timeline + narrative reconstruction system
+
+A GUI cockpit for real‑time operations
+
+Everything is fused into one unified file, behaving like a miniature enterprise NDR/XDR appliance with personality, memory, and adaptive routing.
+
+⭐ WHAT IT DOES FOR YOU
+Here’s the real value it provides:
+
+1. Real‑time NIC intelligence
+It continuously measures:
+
+Latency
+
+Jitter
+
+Packet loss
+
+Throughput
+
+Threat score
+
+Physics (pressure, turbulence, flow)
+
+This gives you a true, dynamic health score for each NIC.
+
+2. AI‑driven routing decisions
+The organism chooses the best NIC using:
+
+NIC health
+
+Load
+
+CPU/MEM pressure
+
+Threat heatmap
+
+GPU anomaly scores
+
+Historical performance
+
+Persona bias
+
+Swarm consensus
+
+Routing mode (global, split, priority)
+
+This is adaptive routing, not static rules.
+
+3. Per‑flow classification
+The new flow engine tracks:
+
+5‑tuple flows (src/dst IP, ports, proto)
+
+Bytes, packets, lifetime
+
+NIC used
+
+Suspicious behavior (burst flows, weird ports, short‑lived spikes)
+
+Suspicious flows are:
+
+Logged
+
+Added to the timeline
+
+Fed into the attack narrative
+
+This is the foundation of NDR‑style detection.
+
+4. GPU‑accelerated anomaly scoring
+If you have:
+
+PyTorch → GPU tensor scoring
+
+CuPy → CUDA anomaly scoring
+
+The organism uses GPU math to detect:
+
+Outliers
+
+Strange NIC behavior
+
+Deviations from normal patterns
+
+These anomaly scores feed directly into the Threat Heatmap.
+
+5. Timeline visualization
+A dedicated SOC tab shows:
+
+Routing decisions
+
+Persona events
+
+Flow anomalies
+
+ETW alerts
+
+Threat spikes
+
+Mode changes
+
+This is a rolling event log of the organism’s internal reasoning.
+
+6. Attack narrative reconstruction
+A lightweight chain builder that creates:
+
+“Suspicious DNS flow → Threat spike → ETW firewall drop → Persona reaction”
+
+It gives you a story of what happened, not just raw logs.
+
+This is similar to what commercial XDR systems do.
+
+7. Kernel‑level hooks (ETW)
+A stubbed ETW listener (expandable later) injects:
+
+Firewall drops
+
+Security alerts
+
+Kernel‑level anomalies
+
+Into:
+
+The timeline
+
+The narrative
+
+The flow classifier
+
+This gives you OS‑level visibility.
+
+8. Distributed swarm with trust decay
+Nodes communicate using:
+
+HMAC‑signed packets
+
+Timestamp validation
+
+Replay protection
+
+Trust scoring
+
+Trust decay over time
+
+This prevents:
+
+Spoofed nodes
+
+Poisoned routing
+
+Malicious swarm members
+
+It’s hardened for hostile networks.
+
+9. Persona Engine (Guardian/Rogue)
+The dual‑personality AI influences:
+
+Threat heatmap
+
+Physics engine
+
+History bias
+
+Routing decisions
+
+Timeline events
+
+Guardian
+Reduces threat
+
+Stabilizes routing
+
+Generates decoys
+
+Performs compliance audits
+
+Rogue
+Increases threat
+
+Forces exploration
+
+Generates encrypted glyph patterns
+
+Marks NICs with suspicion
+
+This creates a living internal dynamic.
+
+10. Enterprise SOC cockpit
+A professional, tabbed GUI:
+
+Live NIC
+
+Physics
+
+Learning
+
+Swarm
+
+Security
+
+Persona Engine
+
+Timeline / Narrative
+
+This is the same layout style used in real SOC/NOC consoles.
+
+⭐ PROS
+✔ Extremely adaptive
+Learns your network, predicts behavior, adjusts routing.
+
+✔ Per‑flow visibility
+You now see suspicious flows and burst patterns.
+
+✔ GPU anomaly detection
+Uses PyTorch/CuPy if available.
+
+✔ Timeline + narrative
+You get a readable story of what the system is doing.
+
+✔ ETW integration
+Kernel‑level events feed into the organism.
+
+✔ Distributed trust decay
+Swarm nodes become more or less trusted over time.
+
+✔ Persona‑aware
+Guardian stabilizes, rogue explores.
+
+✔ Enterprise‑grade GUI
+A real SOC dashboard.
+
+✔ Unified file
+Everything is integrated cleanly.
+
+⭐ CONS
+✖ Still user‑space routing
+Not as powerful as kernel‑level SD‑WAN.
+
+✖ Flow classifier is basic
+It’s a lightweight model, not a full DPI engine.
+
+✖ ETW is stubbed
+Real ETW integration requires more code + permissions.
+
+✖ GPU anomaly model is simple
+It’s a basic statistical model, not a deep autoencoder.
+
+✖ High complexity
+This is a large, multi‑threaded organism — debugging is harder.
+
+✖ Persona engine adds unpredictability
+Rogue mode intentionally destabilizes threat scoring.
+
+⭐ IN ONE SENTENCE
+This code gives you a Tier‑6 autonomous network intelligence organism that performs adaptive routing, per‑flow anomaly detection, GPU‑accelerated scoring, persona‑driven behavior, swarm consensus, ETW integration, and SOC‑grade visualization — all in one file.

@@ -1,0 +1,83 @@
+⚙️ What the code is
+It’s a cross‑platform autonomous network intelligence system written in Python.
+It combines multiple subsystems into one executable organism:
+
+NIC health sensors — measure latency, jitter, and packet loss across interfaces.
+
+Throughput meters — track live bandwidth usage.
+
+Flow classifier — detects suspicious burst flows (metadata‑only, no payload inspection).
+
+GPU/NPU anomaly bridge — uses PyTorch or CuPy for anomaly scoring if available.
+
+AI cortex — applies heuristic or tensor‑based scoring to detect deviations.
+
+Swarm mesh — allows nodes to exchange health data securely with HMAC authentication and trust decay.
+
+Physics engine — models “pressure” and “turbulence” of data flow for visualization.
+
+Persona engine — alternates between Guardian (stabilizing) and Rogue (exploratory) behaviors.
+
+ETW‑style feed — simulates kernel alerts safely for timeline correlation.
+
+Reinforcement learning layer — rewards good routing decisions and biases future choices.
+
+Self‑healing watchdog — monitors internal threads and restarts sensors if they stall.
+
+Distributed memory — shares summaries of learned patterns across nodes.
+
+SOC cockpit GUI — a PySide6 dashboard for live telemetry, swarm view, persona logs, and timeline.
+
+🧠 What it does for you
+It acts as a real‑time network brain that:
+
+Learns your network’s rhythm and predicts optimal routing paths.
+
+Detects anomalies using GPU‑accelerated math and flow metadata.
+
+Visualizes system health, threats, and persona behavior in a cockpit interface.
+
+Shares intelligence with other nodes for distributed consensus.
+
+Recovers gracefully from internal faults without touching the OS kernel.
+
+Adapts its routing and scoring logic based on historical performance and reward feedback.
+
+Simulates SOC operations — timeline, narrative reconstruction, and threat heatmap — for operator insight.
+
+✅ Pros
+Unified architecture — all telemetry, learning, and visualization in one file.
+
+Safe autonomy — no kernel modification or packet interception.
+
+Adaptive routing — learns from history and rewards.
+
+GPU acceleration — optional deep anomaly scoring.
+
+Swarm consensus — multi‑node intelligence with trust decay.
+
+Self‑healing — watchdog prevents silent failures.
+
+SOC‑grade GUI — professional visualization of live metrics.
+
+Persona dynamics — adds behavioral diversity for testing resilience.
+
+Cross‑platform — runs on Windows, Linux, and macOS.
+
+⚠️ Cons
+User‑space only — cannot enforce kernel‑level routing or DPI.
+
+Simulated ETW feed — not true kernel telemetry.
+
+Basic RL logic — rewards are heuristic, not full reinforcement learning.
+
+High resource usage — multi‑threaded sensors and GUI can tax CPU/GPU.
+
+Complex debugging — many concurrent subsystems.
+
+Experimental swarm — trust decay and consensus are simplified.
+
+No payload inspection — metadata‑only flow analysis limits depth.
+
+🧩 In one line
+It’s a safe, intelligent, self‑learning network sentinel that monitors, predicts, and visualizes your network’s behavior — a bridge between SOC analytics and adaptive routing
