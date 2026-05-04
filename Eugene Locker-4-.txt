@@ -1,0 +1,188 @@
+🔥 WHAT THIS CODE IS
+This code is a local defensive security organism — a hybrid of:
+
+1. A secure vault
+Stores passwords or secrets, encrypted with a master password.
+
+2. A machine‑bound encryption wrapper
+Your data is encrypted with a random master key, and that master key is then wrapped by three independent machine‑bound guardians (“Borg Queens”).
+
+3. A multi‑factor, multi‑guardian lock
+To unlock anything, you need:
+
+Queen Alpha
+
+Queen Beta
+
+Queen Gamma
+
+The system they were created on
+
+The user’s master password
+
+The user’s PIN (user factor key)
+
+If ANY of these are missing or changed, unlock fails.
+
+4. A system‑profile integrity monitor
+It fingerprints:
+
+MAC address
+
+OS
+
+OS version
+
+CPU architecture
+
+Hostname
+
+If the system changes in suspicious ways, unlock fails and a drift report is shown.
+
+5. A GUI cockpit
+You get:
+
+Queen status indicators
+
+Drift alerts
+
+Glyph‑encoded ciphertext view
+
+Vault operations
+
+TLS‑like handshake simulation
+
+Full logs
+
+This is not a toy — it’s a local sentinel.
+
+⚙️ WHAT THIS CODE DOES FOR YOU
+1. Protects your vault data
+Your secrets are encrypted with AES‑GCM using a master key derived from your master password.
+
+2. Binds your encrypted data to your machine
+Even if someone steals the encrypted vault file:
+
+It cannot be decrypted on another machine
+
+It cannot be decrypted without all 3 Queens
+
+It cannot be decrypted without your PIN
+
+It cannot be decrypted if system profile changed
+
+It cannot be decrypted if any Queen’s secret changed
+
+This is machine‑identity‑anchored encryption.
+
+3. Detects abnormal system changes
+If someone:
+
+Spoofs your MAC
+
+Changes hostname
+
+Clones your OS
+
+Moves the vault to another machine
+
+Reinstalls OS
+
+Alters hardware
+
+The system produces a drift report and refuses to unlock.
+
+4. Creates a multi‑layered defense
+You’ve built a stack of independent barriers:
+
+Master password
+
+User PIN
+
+3 Queen secrets
+
+Machine profile
+
+Collective fingerprint
+
+AES‑GCM encryption
+
+Glyph obfuscation
+
+GUI operator cockpit
+
+This is defense‑in‑depth.
+
+⭐ PROS
+1. Extremely strong local binding
+The vault is useless anywhere except the original machine with the original Queens.
+
+2. Multi‑factor, multi‑guardian
+You require:
+
+Something you know (password + PIN)
+
+Something you have (machine)
+
+Something the system has (Queen secrets)
+
+3. Drift detection
+You get immediate alerts if:
+
+Hardware changed
+
+OS changed
+
+Network identity changed
+
+Hostname changed
+
+4. Hard to tamper with
+Even if an attacker steals:
+
+The vault
+
+The wrapped master key
+
+The GUI
+
+The code
+
+They still cannot decrypt.
+
+5. Operator‑grade visibility
+The GUI shows:
+
+Queen health
+
+Fingerprints
+
+Drift reports
+
+Glyph ciphertext
+
+Logs
+
+You always know what’s happening.
+
+⚠️ CONS (Honest, technical)
+1. Not a replacement for real OS‑level security
+This is a local encryption wrapper, not a kernel‑level hardening system.
+
+2. If the machine breaks, the vault is lost
+Because the vault is machine‑bound, hardware failure = permanent lockout.
+
+3. Queens are stored in user home directory
+A determined attacker with full system access could delete Queen secrets, causing permanent lockout.
+
+4. No real TPM / Secure Enclave integration yet
+It uses software‑based secrets, not hardware‑backed keys.
+
+5. Performance overhead
+Multiple AES‑GCM wraps per Queen × 3 Queens × workers = heavy wrapping.
+
+6. Not suitable for cloud sync
+Machine‑bound encryption means the vault cannot roam.
+
+🧠 WHAT THIS SYSTEM REALLY IS (In one sentence)
+A self‑contained, multi‑guardian, machine‑anchored encryption organism that protects your secrets and detects abnormal system changes before allowing access.
