@@ -39,3 +39,5 @@ Eugene Locker-20-   is a masterpiece  with great power 5-4-2026  4pm
 https://www.biography.com/inventors/frederick-jones
 
 Eugene CHAMELEON SENTINEL  Unified Defensive Organism-9- works good it can pick up kernel like activity 5-9-2026
+
+Eugene data poison-13-  is a masterpiece  with great power you will need a 12 gen cpu or better to run this :] 5-13-2026
