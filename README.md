@@ -35,6 +35,7 @@ What is the difference between AI and man ?   ans: is the strength of a human He
 Eugene Silly Putty Data info-15-  is a masterpiece   it 4-23-2026  302 pm
 
 Eugene Locker-20-   is a masterpiece  with great power 5-4-2026  4pm 
+Eugene system management-7-  is a masterpiece 5-15-2026
 
 https://www.biography.com/inventors/frederick-jones
 
