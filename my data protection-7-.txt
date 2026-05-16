@@ -1,0 +1,379 @@
+⚡ WHAT THIS CODE IS
+This unified file is a complete defensive node capable of:
+
+Monitoring system behavior
+
+Detecting suspicious shell activity
+
+Scrambling exfiltrated data
+
+Watching USB, browser, network, ETW, and packet events
+
+Running a GUI cockpit
+
+Running a CLI operator console
+
+Participating in an encrypted swarm mesh
+
+Sharing risk and persona state
+
+Predicting threat chains
+
+Training ML models from logs
+
+Running a real ETW agent mode
+
+Exporting ML datasets
+
+It is a self‑contained defensive platform.
+
+⚡ WHAT IT DOES FOR YOU
+1. Protects your system from exfiltration
+It detects:
+
+suspicious PowerShell commands
+
+suspicious CMD commands
+
+suspicious outbound connections
+
+browser upload spikes
+
+USB insert/remove events
+
+ETW events (PowerShell, Security logs)
+
+WinDivert packet events (if helper exists)
+
+If something tries to exfiltrate data, it scrambles the payload using:
+
+encryption
+
+masking
+
+glyph transforms
+
+So even if malware tries to steal data, it gets garbage.
+
+2. Gives you a cockpit
+The GUI shows:
+
+CPU / RAM / anomaly
+
+last event
+
+swarm peers
+
+persona
+
+local + network risk
+
+It’s a HUD, not a dashboard — intentionally minimal and fast.
+
+3. Builds a distributed defensive mesh
+The swarm mesh:
+
+uses encrypted multicast
+
+shares node status
+
+shares persona
+
+shares risk
+
+receives remote operator commands
+
+supports broadcast messages
+
+feeds a consensus engine
+
+This is the foundation of a distributed defensive network.
+
+4. Predicts threat chains
+The threat‑chain predictor:
+
+learns transitions between alert categories
+
+predicts the next likely threat type
+
+feeds persona auto‑mode
+
+feeds risk scoring
+
+This is the beginning of a threat‑chain forecaster.
+
+5. Adapts behavior using Persona v2
+Personas modify sensitivity:
+
+paranoid → high sensitivity
+
+relaxed → low sensitivity
+
+balanced → default
+
+auto → adapts based on:
+
+local anomaly
+
+exfil events
+
+network risk
+
+threat‑chain predictions
+
+This makes the organism adaptive.
+
+6. Provides a local operator console
+The CLI supports:
+
+status
+
+alerts
+
+swarm
+
+persona switching
+
+risk
+
+operator commands
+
+shutdown
+
+It’s a local command channel.
+
+7. Provides a remote operator console
+Over swarm:
+
+ping
+
+request_risk
+
+broadcast_message
+
+set_persona
+
+This is the start of a remote command mesh.
+
+8. Keeps a forensic trail
+All logs are:
+
+encrypted
+
+timestamped
+
+tamper‑resistant
+
+You can decrypt them later for ML training.
+
+9. ML Training Schema
+The code now includes:
+
+feature extractor
+
+dataset exporter
+
+label mapping
+
+CSV generator
+
+You can train:
+
+ONNX
+
+Torch
+
+any 3‑class classifier
+
+This is the foundation of a real ML detection pipeline.
+
+10. Real ETW Agent
+The file now includes a real ETW agent mode:
+
+runs PowerShell
+
+tails PowerShell + Security logs
+
+normalizes events
+
+streams JSON over TCP
+
+Guardian connects to it automatically.
+
+11. Survives failure
+watchdog restarts telemetry
+
+ETW auto‑disable
+
+WinDivert auto‑disable
+
+CLI auto‑port fallback
+
+plugin isolation
+
+exception‑safe subsystems
+
+This is built like a resilient node, not a script.
+
+⚡ PROS
+1. Extremely modular
+Every subsystem is isolated:
+
+telemetry
+
+plugins
+
+policy engine
+
+ML
+
+swarm
+
+consensus
+
+CLI
+
+GUI
+
+watchdog
+
+ETW agent
+
+ML exporter
+
+You can replace or extend any part.
+
+2. Distributed intelligence
+Nodes share:
+
+persona
+
+exfil counts
+
+timestamps
+
+local risk
+
+Consensus engine computes:
+
+network‑wide risk level
+
+This is the start of a distributed defensive brain.
+
+3. ML‑ready
+You now have:
+
+ONNX/Torch loader
+
+feature vector builder
+
+fallback heuristic
+
+training schema
+
+dataset exporter
+
+You can plug in a real model instantly.
+
+4. Real integration points
+The code is ready for:
+
+a real ETW agent
+
+a real WinDivert helper
+
+a real ML model
+
+a real swarm control protocol
+
+The interfaces are already wired.
+
+5. Strong security posture
+encrypted logs
+
+encrypted swarm
+
+payload protector
+
+auto‑elevation
+
+auto‑disable subsystems
+
+watchdog
+
+This is a hardened defensive node.
+
+⚡ CONS
+1. ETW + WinDivert require external helpers
+Without them, those subsystems disable themselves.
+
+2. ML is heuristic unless you provide a real model
+The wrapper is ready, but you need a trained model for real detection.
+
+3. No active blocking
+It does not:
+
+kill processes
+
+block network traffic
+
+modify firewall rules
+
+It’s observational + scrambling only.
+
+4. Swarm uses multicast
+Multicast can be blocked by:
+
+VPNs
+
+firewalls
+
+routers
+
+But the node handles this gracefully.
+
+5. GUI is intentionally minimal
+It’s a HUD, not a full dashboard.
+
+⚡ OVERALL
+You now have a Tier‑3 defensive organism with:
+
+telemetry
+
+anomaly detection
+
+exfil detection
+
+payload scrambling
+
+encrypted logs
+
+encrypted swarm mesh
+
+consensus engine v2
+
+threat‑chain predictor v2 hooks
+
+persona v2
+
+operator CLI
+
+remote operator console
+
+neon cockpit
+
+watchdog
+
+auto‑elevation
+
+auto‑disable subsystems
+
+auto‑port fallback
+
+plugin architecture
+
+real ETW agent mode
+
+ML training schema
+
+This is the foundation for a Tier‑12 autonomous defensive AI.
