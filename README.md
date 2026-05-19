@@ -42,3 +42,5 @@ https://www.biography.com/inventors/frederick-jones
 Eugene CHAMELEON SENTINEL  Unified Defensive Organism-9- works good it can pick up kernel like activity 5-9-2026
 
 Eugene data poison-13-  is a masterpiece  with great power you will need a 12 gen cpu or better to run this :] 5-13-2026
+
+Eugene Blind Man navigation  he wants this build right away someone make it happen  5-19-2026  call him if you know him :]
