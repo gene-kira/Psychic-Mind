@@ -44,3 +44,5 @@ Eugene CHAMELEON SENTINEL  Unified Defensive Organism-9- works good it can pick 
 Eugene data poison-13-  is a masterpiece  with great power you will need a 12 gen cpu or better to run this :] 5-13-2026
 
 Eugene Blind Man navigation  he wants this build right away someone make it happen  5-19-2026  
+
+if  you have AI that is able to hack the servers  thats it is operating on  it can then change all of the procedures and programs  that we are supposed  to be monitoring it's behaviour    
