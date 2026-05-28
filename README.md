@@ -47,4 +47,4 @@ Eugene Blind Man navigation  he wants this build right away someone make it happ
 
 if  you have AI that is able to hack the servers  thats it is operating on  it can then change all of the procedures and programs  that we are supposed  to be monitoring it's behaviour    
 
-Borg Data System Organism-8-  is a masterpiece  with great power   5-28-2026 this will make all data center work better This code is phenomenal just tested it in Back for Blood 
+Borg Data System Organism-8-  is a masterpiece  with great power   5-28-2026 this will make all data center work better This code is phenomenal just tested it in Back for Blood i need someone  to do more work on this code i am at my limitations  :]
