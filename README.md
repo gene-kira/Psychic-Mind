@@ -50,3 +50,6 @@ if  you have AI that is able to hack the servers  thats it is operating on  it c
 Borg Data System Organism-8-  is a masterpiece  with great power   5-28-2026 this will make all data center work better This code is phenomenal just tested it in Back for Blood i need someone  to do more work on this code i am at my limitations  :]
 
 Codex Sentinel GODMODE-7-is a masterpiece  with great power you will need a 12 gen cpu or better to run this :]  5-30-2026 315pm
+
+codex_sentinel_win_hardener-6-  i love it  a masterpiece  6-1-2026
+
